@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.homepage = "https://zzzel.xyz"
 
-  s.source = { :git => "git@github.com:zzzel/RwPickFlavor.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/zzzel/RwPickFlavor.git", :tag => "#{s.version}" }
 
   s.framework = "UIKit"
   s.dependency = 'Alamofire', '~> 2.0'
